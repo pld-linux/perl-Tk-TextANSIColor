@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test" (requires working $DISPLAY)
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tk
-%define	pnam	TextANSIColor
+%define		pdir	Tk
+%define		pnam	TextANSIColor
 Summary:	Tk::TextANSIColor - Tk::Text widget with support for ANSI color escape codes
 Summary(pl):	Tk::TextANSIColor - widget Tk::Text z obs³ug± sekwencji kolorów ANSI
 Name:		perl-Tk-TextANSIColor
