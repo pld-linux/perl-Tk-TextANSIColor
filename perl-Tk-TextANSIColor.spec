@@ -17,7 +17,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	594d7c3facf2d88b9a9b075935534521
 BuildRequires:	perl-Term-ANSIColor >= 1.00
 BuildRequires:	perl-Tk
-BuildRequires:	perl-devel >= 5.8.0
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Term-ANSIColor >= 1.00
 BuildArch:	noarch
