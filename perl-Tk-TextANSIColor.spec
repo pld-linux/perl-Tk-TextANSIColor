@@ -11,7 +11,7 @@ Name:		perl-Tk-TextANSIColor
 Version:	0.15
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	594d7c3facf2d88b9a9b075935534521
