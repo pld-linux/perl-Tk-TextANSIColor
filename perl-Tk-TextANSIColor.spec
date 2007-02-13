@@ -6,7 +6,7 @@
 %define		pdir	Tk
 %define		pnam	TextANSIColor
 Summary:	Tk::TextANSIColor - Tk::Text widget with support for ANSI color escape codes
-Summary(pl.UTF-8):   Tk::TextANSIColor - widget Tk::Text z obsługą sekwencji kolorów ANSI
+Summary(pl.UTF-8):	Tk::TextANSIColor - widget Tk::Text z obsługą sekwencji kolorów ANSI
 Name:		perl-Tk-TextANSIColor
 Version:	0.15
 Release:	1
