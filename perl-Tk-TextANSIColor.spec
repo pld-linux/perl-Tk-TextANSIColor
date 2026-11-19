@@ -7,13 +7,13 @@
 Summary:	Tk::TextANSIColor - Tk::Text widget with support for ANSI color escape codes
 Summary(pl.UTF-8):	Tk::TextANSIColor - widget Tk::Text z obsługą sekwencji kolorów ANSI
 Name:		perl-Tk-TextANSIColor
-Version:	0.16
-Release:	2
+Version:	0.17
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c285af9d6189baab4c8a9cc22dcc3ad0
+Source0:	https://www.cpan.org/authors/id/G/GS/GSB/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	bbe454dc3006235d40e92e7bc4660b33
 URL:		http://search.cpan.org/dist/Tk-TextANSIColor/
 BuildRequires:	perl-Term-ANSIColor >= 1.00
 BuildRequires:	perl-Tk
@@ -57,6 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog README
+%doc Changes README
 %{perl_vendorlib}/Tk/*TextANSIColor.pm
 %{_mandir}/man3/*
